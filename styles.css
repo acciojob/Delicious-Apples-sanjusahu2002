@@ -84,9 +84,14 @@ p{
     margin-top: 20px;
     margin-bottom: 5px;
 }
-.variant img{
+.variant ul{
+    display: flex;
+    list-style: none;
+}
+.variant ul li img{
     width: 40px;
 }
+
 .right-section ul{
     margin-left: 40px;
     margin-top: 20px;
