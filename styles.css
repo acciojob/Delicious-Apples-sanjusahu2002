@@ -1,1 +1,101 @@
 /* your code here */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main-div{
+    width: 100vw;
+    height: 100vh;
+    background-color: #21e093;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-div{
+    width: 30%;
+    height: 60%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+
+}
+.product_photo{
+    width: 45%;
+    height: 80%;
+    transform: translate(-50px);
+    background-color: white;
+    box-shadow: 0px 5px 25px -8px black;
+}
+.photo-main {
+    width: 100%;
+    height: 75%;
+    background-image: url('https://img.freepik.com/premium-photo/apple-green-irish-green-color-template-banner-well-use-layout-banner-product-presentation_7954-3904.jpg');
+    background-position: center;
+    background-size:cover ;
+    display: flex;
+    align-items: center;
+}
+.photo-main img{
+    transform: translate(-60px);
+    
+}
+
+
+
+.photo-album{
+    width: 100%;
+    height: 25%;
+    
+}
+.photo-album ul{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    list-style-type: none;
+}
+.photo-album ul li img{
+    width: 50px;
+
+}
+.right-section{
+    width: 50%;
+    height: 80%;
+    
+}
+.right-section h2{
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+span{
+    color: rgb(248, 72, 72);
+    margin: 5px;
+
+}
+.price{
+    font-size: 32px;
+}
+p{
+    color: rgb(124, 117, 117);
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.variant img{
+    width: 40px;
+}
+.right-section ul{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.right-section button{
+    color: white;
+    background-color: rgb(246, 45, 45);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
